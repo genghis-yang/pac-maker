@@ -1,5 +1,5 @@
 #labels Featured,Phase-Deploy
-_ 本页描述此工程所提供之PAC文件使用方法。 _
+# 本页描述此工程所提供之PAC文件使用方法。
 
 = 修改PAC文件中的代理服务器 =
 
