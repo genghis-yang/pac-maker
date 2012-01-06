@@ -36,7 +36,7 @@ for line in addrlist:
     matchlist = rule.search(line)
     if(len(line)==0):
         continue
-    line4write = 'isInNet(rip,\"%s\",\"%s\" ||\n' % (matchlist.group('netnum'), matchlist.group('netmark'))
+    line4write = 'isInNet(rip,\"%s\",\"%s\") ||\n' % (matchlist.group('netnum'), matchlist.group('netmark'))
     f.write(line4write)
 f.write('''(shExpMatch(host, "*qq.com")) ||
 (shExpMatch(host, "*taobao.com")) )return "DIRECT";
