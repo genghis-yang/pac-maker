@@ -1,5 +1,5 @@
 #summary 本页描述1.x版本使用方法。
-#labels Deprecated
+#labels Phase-Deploy
 
 = 使用方法： =
     Usage: writepac inputFile [-o output] [-p proxyaddress]
